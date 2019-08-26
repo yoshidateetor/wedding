@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+}
+
+.body {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  background-image: url(../img/background.svg);
+  background-size: cover;
+}
+
+.container {
+  margin: 10px auto;
+  max-width: 600px;
+  text-align: center;
+}

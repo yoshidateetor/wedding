@@ -8,14 +8,18 @@ layout: default
 		
 * From Itami to Himeji: [Limousine bus (~ ¥2160)](https://www.okkbus.co.jp/en/timetable/H/#from)
 
-* Please arrive in Himeji by **May 29th**. There will be a shuttle to take you to the wedding venue on May 30th. 
+* Please arrive in Himeji by **May 29th**.  
 
 
-# Transportation
+# Transportation on Wedding Day
 
-* 	Himeji to ITM airport 
+* To and from wedding venue: There will be a shuttle bus to take you to the wedding venue on **May 30th**. Pick up location TBD. 
+
+# General Transportation
+
+* Himeji to ITM airport 
 		
-*   JR Trains
+* JR Trains
 
-*		Shinki bus (city bus)
+* Shinki bus (city bus)
 

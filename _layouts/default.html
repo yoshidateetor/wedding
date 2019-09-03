@@ -1,17 +1,16 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <title>Wedding — Yoshida-Teetor</title>
-  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}" />
-</head>
-<body>
-  <header>
-  </header>
-  <main>
-    <section class="content">
+
+  {% include head.html %}
+
+  <body class="container d-flex justify-content-between">
+    <main role="main" class="">
+
       {{ content }}
-    </section>
-  </main>
-</body>
+
+    </main>
+
+    {% include header.html %}
+
+  </body>
 </html>

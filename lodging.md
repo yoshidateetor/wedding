@@ -1,5 +1,7 @@
 ---
 layout: default
+title: Lodging
+icon: <i class="fad fa-hotel"></i>
 ---
 
 
@@ -16,10 +18,8 @@ layout: default
 * [Hotel Nikko Himeji](https://www.okura-nikko.com/japan/himeji/hotel-nikko-himeji/)
 
 
-# Fancy Hotels Away from City Center 
+# Fancy Hotels Away from City Center
 
 * [Yuenoi](https://www.yumenoi.com/english.html)
 
 * [Setre Highland Villa](https://www.booking.com/hotel/jp/setre-highland-villa.html)
-
-

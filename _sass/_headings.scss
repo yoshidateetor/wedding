@@ -1,7 +1,11 @@
-h1 {
-  margin: 30px 0;
-  font-size: 4em;
-  line-height: 1;
-  letter-spacing: -1px;
-  color: #A10058;
+h1, h2, h3, h4, h5, h6 {
+  letter-spacing: .5px;
+}
+
+.display-1,
+.display-2,
+.display-3,
+.display-4,
+.display-5 {
+  text-shadow: 1px 1px 2px black;
 }

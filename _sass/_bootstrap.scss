@@ -1,6 +1,6 @@
 // colors ----
 
-// palette URL: http://paletton.com/#uid=306091kvWrbhfHuuauj-Um7HJgUkuTpOk0sApAsrBimFJpj+k6Nh77TOv7qq63W6U8G0N */
+// palette URL: http://paletton.com/#uid=c0615332M1kvWrbhfHuuauj-Um7HJgUkpg-XfaN9kAFRvIx4x6otkuTpOk0sApAsrBimFJpj+k6Nh77TOv7qq63W6U8G0N
 
 $color-primary-0: #D91E00;	// Main Primary color */
 $color-primary-1: #FF8876;
@@ -20,6 +20,12 @@ $color-secondary-2-2: #8AAC84;
 $color-secondary-2-3: #292D28;
 $color-secondary-2-4: #040504;
 
+$color-complement-0: #FFC636;	// Main Complement color */
+$color-complement-1: #FFDD86;
+$color-complement-2: #FFD15B;
+$color-complement-3: #FFB802;
+$color-complement-4: #C38C00;
+
 $theme-colors: ();
 $theme-colors: map-merge(
   (
@@ -33,11 +39,16 @@ $theme-colors: map-merge(
     "secondary-300": $color-secondary-1-0,
     "secondary-400": $color-secondary-1-3,
     "secondary-500": $color-secondary-1-4,
-    "accent-100": $color-secondary-2-1,
-    "accent-200": $color-secondary-2-2,
-    "accent-300": $color-secondary-2-0,
-    "accent-400": $color-secondary-2-3,
-    "accent-500": $color-secondary-2-4
+    "grey-100": $color-secondary-2-1,
+    "grey-200": $color-secondary-2-2,
+    "grey-300": $color-secondary-2-0,
+    "grey-400": $color-secondary-2-3,
+    "grey-500": $color-secondary-2-4,
+    "accent-100": $color-complement-1,
+    "accent-200": $color-complement-2,
+    "accent-300": $color-complement-0,
+    "accent-400": $color-complement-3,
+    "accent-500": $color-complement-4
   ),
   $theme-colors
 );
@@ -50,14 +61,14 @@ $headings-font-family: 'Lily Script One', cursive;
 $font-size-base: 1.5rem;
 
 // body ----
-$body-bg: lighten(map-get($theme-colors, "accent-100"), 16%);
+$body-bg: lighten(map-get($theme-colors, "grey-100"), 11%);
 
 // headings ----
-$headings-color: map-get($theme-colors, "primary-400");
+$headings-color: map-get($theme-colors, "grey-400");
 
 // links ----
-$link-color: map-get($theme-colors, "accent-300");
-$link-hover-color: map-get($theme-colors, "accent-400");
+$link-color: map-get($theme-colors, "primary-300");
+$link-hover-color: map-get($theme-colors, "primary-500");
 
 //font-family: 'Quicksand', sans-serif;
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Contact
-icon: <i class="fad fa-paper-plane"></i>
+icon: paper-plane
 ---
 
 ### Send us a message!

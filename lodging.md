@@ -1,9 +1,8 @@
 ---
 layout: default
 title: Lodging
-icon: <i class="fad fa-hotel"></i>
+icon: hotel
 ---
-
 
 # Hotels in Himeji City Center
 

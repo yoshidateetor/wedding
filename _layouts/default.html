@@ -3,14 +3,18 @@
 
   {% include head.html %}
 
-  <body class="container d-flex justify-content-between">
-    <main role="main" class="">
+  <body class="container-md">
+    <div class="row">
+      <div class="col-md-10 col-12 order-md-1 order-2">
 
-      {{ content }}
+        {{ content }}
 
-    </main>
+      </div>
+      <div class="col-md-2 col-12 order-md-2 order-1">
 
-    {% include header.html %}
+        {% include nav.html %}
 
+      </div>
+    </div>
   </body>
 </html>

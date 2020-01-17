@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Location
-icon: <i class="fad fa-map-pin"></i>
+icon: map-pin
 ---
 
 # Location

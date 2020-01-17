@@ -1,0 +1,24 @@
+<nav class="nav flex-md-column flex-row justify-content-between mb-3 mb-md-0">
+  {% assign html_pages = site.html_pages %}
+
+  {% for header_path in site.header.pages %}
+
+  {% assign p = site.html_pages | where: "path", header_path | first %}
+
+  {% if p.title %}
+  {% if page.title == p.title %}
+  {% assign active = true %}
+  {% else %}
+  {% assign active = false %}
+  {% endif %}
+
+  <a class="nav-link text-nowrap {% if active %}active font-weight-bold{% endif %}"
+     href="{{ p.url | relative_path }}"
+     >
+    {% if active and p.icon %}<i class="fad fa-{{ p.icon }}"></i>{% endif %}
+    {{ p.title | escape }}
+  </a>
+  {% endif %}
+
+  {% endfor %}
+</nav>

@@ -1,8 +1,51 @@
 ---
-layout: default
 ---
-<div class="d-flex flex-column align-items-center text-center">
+<!DOCTYPE html>
+<html>
 
-  {{ content }}
+  {% include head.html %}
 
-</div>
+  <body>
+    <div class="vh-100 container-fluid scroll-smooth">
+
+      {% for section in site.home %}
+      <div id={{ section.slug }}
+           class="min-h-100 row bg-secondary-200">
+        <div class="col d-flex flex-column">
+
+          <h1 class="display-1 w-100 d-flex justify-content-center">
+            <div class="w-25 h-50 border-grey-500 border-bottom"></div>
+            <div class="px-4 text-nowrap">{{ section.excerpt | strip_html }}</div>
+            <div class="w-25 h-50 border-grey-500 border-bottom"></div>
+          </h1>
+
+          <div class="align-self-end align-bottom font-smaller">
+            {% if section.next %}
+            <a class="link"
+               href={{ section.next.slug | prepend: '#' }}
+               ><i class="fas fa-chevron-down pr-2"></i>{{ section.next.title }}
+            </a>
+            {% endif %}
+
+            {% if section.next and section.previous %}
+            <i class="fas fa-slash fa-rotate-90"></i>
+            {% endif %}
+
+            {% if section.previous %}
+            <a class="link"
+               href={{ section.previous.slug | prepend: '#' }}
+               >{{ section.previous.title }}<i class="fas fa-chevron-up pl-2"></i>
+            </a>
+            {% endif %}
+          </div>
+
+          {{ section.content | remove_first: section.excerpt }}
+
+        </div>
+      </div>
+      {% endfor %}
+
+    </div>
+  </body>
+
+</html>

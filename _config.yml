@@ -5,6 +5,14 @@ url: "https://wedding.yoshidateetor.com"
 # Build settings
 markdown: kramdown
 
+collections_dir: _collections
+collections:
+  home:
+    order:
+      - welcome.md
+      - when.md
+      - where.md
+
 sass:
   sass_dir: _sass
 

@@ -27,30 +27,27 @@ $color-complement-3: #FFB802;
 $color-complement-4: #C38C00;
 
 $theme-colors: ();
-$theme-colors: map-merge(
-  (
-    "primary-100": $color-primary-1,
-    "primary-200": $color-primary-2,
-    "primary-300": $color-primary-0,
-    "primary-400": $color-primary-3,
-    "primary-500": $color-primary-4,
-    "secondary-100": $color-secondary-1-1,
-    "secondary-200": $color-secondary-1-2,
-    "secondary-300": $color-secondary-1-0,
-    "secondary-400": $color-secondary-1-3,
-    "secondary-500": $color-secondary-1-4,
-    "grey-100": $color-secondary-2-1,
-    "grey-200": $color-secondary-2-2,
-    "grey-300": $color-secondary-2-0,
-    "grey-400": $color-secondary-2-3,
-    "grey-500": $color-secondary-2-4,
-    "accent-100": $color-complement-1,
-    "accent-200": $color-complement-2,
-    "accent-300": $color-complement-0,
-    "accent-400": $color-complement-3,
-    "accent-500": $color-complement-4
-  ),
-  $theme-colors
+$theme-colors: (
+  "primary-100": $color-primary-1,
+  "primary-200": $color-primary-2,
+  "primary-300": $color-primary-0,
+  "primary-400": $color-primary-3,
+  "primary-500": $color-primary-4,
+  "secondary-100": $color-secondary-1-1,
+  "secondary-200": $color-secondary-1-2,
+  "secondary-300": $color-secondary-1-0,
+  "secondary-400": $color-secondary-1-3,
+  "secondary-500": $color-secondary-1-4,
+  "grey-100": $color-secondary-2-1,
+  "grey-200": $color-secondary-2-2,
+  "grey-300": $color-secondary-2-0,
+  "grey-400": $color-secondary-2-3,
+  "grey-500": $color-secondary-2-4,
+  "accent-100": $color-complement-1,
+  "accent-200": $color-complement-2,
+  "accent-300": $color-complement-0,
+  "accent-400": $color-complement-3,
+  "accent-500": $color-complement-4
 );
 
 // fonts ----

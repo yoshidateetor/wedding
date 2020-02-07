@@ -4,25 +4,49 @@ title: Home
 icon: rings-wedding
 ---
 
-## Karin & Nate
-{: .display-1 }
+<!-- ## Karin & Nate -->
+<!-- {: .display-1 } -->
 
-![](/assets/img/karin-pizza.jpeg){: .rounded-circle }
-![](/assets/img/nate-carrot-teeth.jpeg){: .rounded-circle }
+<!-- ![](/assets/img/karin-pizza.jpeg){: .rounded-circle } -->
+<!-- ![](/assets/img/nate-carrot-teeth.jpeg){: .rounded-circle } -->
 
-#### When
+<!-- ### When -->
 
-Saturday May 30th, 2020
+<!-- Saturday May 30th, 2020 -->
 
-#### Where
+<!-- ### Where -->
 
-Shakankan, Yumesaki, Himeji
+<!-- Shakankan, Yumesaki, Himeji -->
 
-_map to come!_
+<!-- _map to come!_ -->
 
-#### Attire
+<!-- ### Who -->
 
-Semi-formal
+<!-- #### Bride -->
 
-The celebration is both outdoors and indoors. There will be dancing! Shoes will
-be left at the door when entering Shakankan.
+<!-- Karin Yoshida -->
+
+<!-- #### Bridesmaids -->
+
+<!-- Arjuna Pettit -->
+
+<!-- Kiran Puri -->
+
+<!-- #### Groom -->
+
+<!-- Nathan Teetor -->
+
+<!-- #### Groomsmen -->
+
+<!-- Nick Loh -->
+
+<!-- Christopher DeSante -->
+
+<!-- ### What -->
+
+<!-- #### Attire -->
+
+<!-- Semi-formal -->
+
+<!-- The celebration is both outdoors and indoors. There will be dancing! Shoes will -->
+<!-- be left at the door when entering Shakankan. -->

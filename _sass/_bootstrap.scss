@@ -52,10 +52,15 @@ $theme-colors: (
 
 // fonts ----
 
-$font-family-sans-serif: 'Quicksand', sans-serif;
-$headings-font-family: 'Lily Script One', cursive;
+// $font-family-sans-serif: 'Quicksand', sans-serif;
+$font-family-sans-serif: 'Muli', sans-serif;
+
+$headings-font-family: 'Ribeye Marrow', cursive;
+// $headings-font-family: 'Lily Script One', cursive;
 
 $font-size-base: 1.5rem;
+
+$font-weight-base: 300;
 
 // body ----
 $body-bg: lighten(map-get($theme-colors, "grey-100"), 11%);
@@ -66,6 +71,7 @@ $headings-color: map-get($theme-colors, "grey-400");
 // links ----
 $link-color: map-get($theme-colors, "primary-300");
 $link-hover-color: map-get($theme-colors, "primary-500");
+$link-hover-decoration: none;
 
 //font-family: 'Quicksand', sans-serif;
 

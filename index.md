@@ -1,52 +1,25 @@
 ---
-layout: home
-title: Home
-icon: rings-wedding
+layout: home/index
 ---
 
-<!-- ## Karin & Nate -->
-<!-- {: .display-1 } -->
+# Karin & Nate
 
-<!-- ![](/assets/img/karin-pizza.jpeg){: .rounded-circle } -->
-<!-- ![](/assets/img/nate-carrot-teeth.jpeg){: .rounded-circle } -->
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit.  Donec hendrerit
+tempor tellus.  Donec pretium posuere tellus.  Proin quam nisl, tincidunt et,
+mattis eget, convallis nec, purus.  Cum sociis natoque penatibus et magnis dis
+parturient montes, nascetur ridiculus mus.  Nulla posuere.  Donec vitae dolor.
+Nullam tristique diam non turpis.  Cras placerat accumsan nulla.  Nullam rutrum.
+Nam vestibulum accumsan nisl.
 
-<!-- ### When -->
+![formal](/assets/img/couple/formal.jpg){: .img-fluid }
 
-<!-- Saturday May 30th, 2020 -->
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit.  Donec hendrerit
+tempor tellus.  Donec pretium posuere tellus.  Proin quam nisl, tincidunt et,
+mattis eget, convallis nec, purus.  Cum sociis natoque penatibus et magnis dis
+parturient montes, nascetur ridiculus mus.  Nulla posuere.  Donec vitae dolor.
+Nullam tristique diam non turpis.  Cras placerat accumsan nulla.  Nullam rutrum.
+Nam vestibulum accumsan nisl.
 
-<!-- ### Where -->
+![formal](/assets/img/couple/garden.jpg){: .img-fluid }
 
-<!-- Shakankan, Yumesaki, Himeji -->
-
-<!-- _map to come!_ -->
-
-<!-- ### Who -->
-
-<!-- #### Bride -->
-
-<!-- Karin Yoshida -->
-
-<!-- #### Bridesmaids -->
-
-<!-- Arjuna Pettit -->
-
-<!-- Kiran Puri -->
-
-<!-- #### Groom -->
-
-<!-- Nathan Teetor -->
-
-<!-- #### Groomsmen -->
-
-<!-- Nick Loh -->
-
-<!-- Christopher DeSante -->
-
-<!-- ### What -->
-
-<!-- #### Attire -->
-
-<!-- Semi-formal -->
-
-<!-- The celebration is both outdoors and indoors. There will be dancing! Shoes will -->
-<!-- be left at the door when entering Shakankan. -->
+![formal](/assets/img/couple/laughing.jpg){: .img-fluid }

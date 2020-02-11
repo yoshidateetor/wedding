@@ -1,0 +1,22 @@
+---
+---
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+    <div class="vh-100 container-fluid scroll-smooth">
+
+      {{ content }}
+
+      {% for section in site.home %}
+
+      {{ section }}
+
+      {% endfor %}
+
+    </div>
+  </body>
+
+</html>

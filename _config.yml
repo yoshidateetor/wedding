@@ -12,6 +12,9 @@ collections:
       - welcome.md
       - when.md
       - where.md
+      - who.md
+      - what.md
+      - how.md
 
 sass:
   sass_dir: _sass

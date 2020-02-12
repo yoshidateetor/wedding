@@ -1,20 +1,30 @@
 <div id={{ page.slug }} class="row section">
 
-  <div class="col-9 section__content">
+  <div class="col-10 section__content">
     {{ content | remove_first: page.excerpt }}
   </div>
 
-  <div class="col-3 section__bar bg-accent-300">
-    <h3 class="section__bar-title">
-      {{ page.excerpt | strip_html }}
-    </h3>
+  <div class="col-2 section__bar bg-accent-300">
+    <div class="section__bar-top">
+      <h3 class="top__title">
+        {{ page.excerpt | strip_html }}
+      </h3>
 
-    {% if page.next %}
-    <a class="section__bar-link"
-       href={{ page.next.slug | prepend: '#' }}
-       >Next<i class="fas fa-chevron-down"></i>
-    </a>
-    {% endif %}
+      {% if page.next %}
+      <a class="top__link"
+         href={{ page.next.slug | prepend: '#' }}
+         >Next<i class="fas fa-chevron-down"></i>
+      </a>
+      {% endif %}
+    </div>
+
+    <div class="section__bar-bottom">
+      <div class="bottom__circles">
+        <i class="fas fa-circle"></i>
+        <i class="fas fa-circle"></i>
+        <i class="fas fa-circle"></i>
+      </div>
+    </div>
   </div>
 
 </div>

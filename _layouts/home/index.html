@@ -6,9 +6,22 @@
   {% include head.html %}
 
   <body>
-    <div class="vh-100 container-fluid scroll-smooth">
+    <div class="home vh-100 container-fluid scroll-smooth">
 
-      {{ content }}
+      <div class="row">
+        <div class="col-10 home__content">
+          {{ content }}
+        </div>
+        <div class="col-2 home__bar bg-accent-300">
+          <h3 class="home__bar-title">
+            {{ page.title | default: "Welcome" }}
+          </h3>
+          <a class="home__bar-link"
+             href={{ site.home[0].slug | prepend: "#" }}
+             >Next<i class="fas fa-chevron-down"></i>
+          </a>
+        </div>
+      </div>
 
       {% for section in site.home %}
 

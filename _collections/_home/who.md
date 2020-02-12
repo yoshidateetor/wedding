@@ -10,4 +10,3 @@ layout: home/section
 |:-------------:|:-------------:|
 | Arjuna Pettit | Nicholas Loh  |
 | Kiran Puri    | Chris DeSante |
-{: .table .table-borderless }

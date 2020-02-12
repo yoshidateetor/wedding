@@ -4,6 +4,20 @@ layout: home/section
 
 # How
 
-## Itami
+### Tokyo
 
-## KIX
+* Narita airport
+* Tokyo station
+* Himeji station
+
+### Osaka
+
+* KIX
+* Osaka station
+* Himeji station
+
+--- or ---
+
+* ITM
+* Osaka station
+* Himeji station

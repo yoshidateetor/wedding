@@ -4,20 +4,46 @@
 
 .section__bar {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-.section__bar-title {
+.section__bar-top {
+
+}
+
+.section__bar-bottom {
+
+}
+
+.top__title {
   position: sticky;
   top: 1rem;
 }
 
-.section__bar-link {
+.top__link {
   position: sticky;
   top: 4rem;
   display: flex;
   flex-direction: column;
   font-size: 1rem;
   line-height: 1rem;
+
+  i {
+    font-size: .5em;
+  }
+}
+
+.bottom__circles {
+  display: none; // flex;
+  flex-direction: column;
+
+  i {
+    font-size: 5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
 }
 
 .section__content {
@@ -39,8 +65,47 @@
     max-width: 100%;
     height: auto;
   }
+}
+
+.section__content table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 1.75rem;
+
+  th {
+    font-family: $headings-font-family;
+    font-size: 1.25em;
+  }
 
   td {
     text-align: center;
+  }
+}
+
+.section__content ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 0;
+  font-size: 2rem;
+
+  li {
+    white-space: nowrap;
+  }
+
+  li:not(:last-child)::after {
+    content: "\f0a4";
+    font-family: "Font Awesome 5 Duotone";
+    color: var(--primary-200);
+    margin-right: -.5em;
+    padding-left: .75em;
+  }
+
+  li:not(:first-child)::before {
+    content: "\10f0a4";
+    font-family: "Font Awesome 5 Duotone";
+    color: var(--accent-400);
+    padding-right: .75em;
+    margin-left: -.5em;
   }
 }
